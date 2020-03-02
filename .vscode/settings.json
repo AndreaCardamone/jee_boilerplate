@@ -5,7 +5,9 @@
     "**/.settings": true,
     "**/.factorypath": true,
     "**/.history": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/tmp": true,
+    "**/target": true
   },
   "code-runner.showExecutionMessage": false,
   "code-runner.showRunCommandInExplorerContextMenu": false,
