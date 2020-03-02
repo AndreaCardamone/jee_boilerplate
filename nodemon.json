@@ -1,0 +1,10 @@
+{
+  "verbose": true,
+  "execMap": {
+    "ps1": "Powershell.exe -File"
+  },
+  "ext": "class",
+  "watch": [
+    "target/classes/**/*.class"
+  ]
+}

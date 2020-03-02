@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.history": true
+  },
+  "code-runner.showExecutionMessage": false,
+  "code-runner.showRunCommandInExplorerContextMenu": false,
+  "code-runner.showRunCommandInEditorContextMenu": false,
+  "code-runner.showRunIconInEditorTitleMenu": false
+}

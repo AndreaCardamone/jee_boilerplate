@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon scripts/run.js",
+    "start:win": "nodemon scripts/run.ps1",
+    "start:unix": "nodemon scripts/run.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "maven": "^4.7.0",
+    "nodemon": "^2.0.2"
+  }
+}
