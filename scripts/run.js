@@ -1,3 +1,5 @@
-const mvn = require('maven').create();
+const mvn = require('maven').create({
+  profiles: ['dev-server']
+});
 
-mvn.execute(['jetty:run'], {'skipTests': true}).then(console.log, console.error);
+mvn.execute(['jetty:run']).then(console.log, console.error);

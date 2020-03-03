@@ -1,2 +1,2 @@
 #!/bin/bash
-mvn jetty:run
+mvn -Pdev-server jetty:run

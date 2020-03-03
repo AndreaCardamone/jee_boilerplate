@@ -81,4 +81,58 @@
     </plugins>
   </build>
 
+  <profiles>
+    <profile>
+      <id>dev-server</id>
+
+      <build>
+        <plugins>
+
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+
+            <executions>
+              <execution>
+                <id>test-compile</id>
+                <phase>none</phase>
+              </execution>
+
+              <execution>
+                <id>default-compile</id>
+                <phase>none</phase>
+              </execution>
+
+              <execution>
+                <id>default-testCompile</id>
+                <phase>none</phase>
+              </execution>
+            </executions>
+          </plugin>
+
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>3.1.0</version>
+
+
+            <executions>
+              <execution>
+                <id>default-resources</id>
+                <phase>none</phase>
+              </execution>
+
+              <execution>
+                <id>default-testResources</id>
+                <phase>none</phase>
+              </execution>
+            </executions>
+          </plugin>
+
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
 </project>
